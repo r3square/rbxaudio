@@ -537,7 +537,7 @@ function rbxaudio:initialize()
 
 					verified = true
 
-					if peak_level > .37 and peak_level < .38 then
+					if peak_level > .34 and peak_level < .38 then
 						sync_success = true
 					else
 						sync_success = false
